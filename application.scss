@@ -1,0 +1,94 @@
+// ------------------------------------------------------------
+
+@import 'grid';
+@import 'base';
+@import 'config';
+@import 'fontsize';
+
+// ------------------------------------------------------------
+
+.container--example-a,
+.container--example-b,
+.container--example-c,
+.container--example-d {
+    .unit {
+        @include font-size(16);
+    }
+} 
+
+.container--example-a {
+    @extend .fixed-margins;
+    
+    background-color: $alt;
+    margin-bottom: $gutter*2;
+
+    .collection { @extend .fixed-width }
+
+    .unit {
+        padding-top: $gutter;
+        padding-bottom: $gutter;
+
+        @extend .group-1--one-whole;
+        @extend .group-2--one-whole;
+        @extend .group-3--one-third;
+        @extend .group-4--one-quarter;
+    }
+}
+
+.container--example-b {
+    @extend .fixed-margins;
+    @extend .fixed-width;
+    
+    margin-bottom: $gutter*2;
+
+    .unit {
+        @extend .group-1--one-whole;
+        @extend .group-2--one-whole;
+        @extend .group-3--one-third;
+        @extend .group-4--one-quarter;
+    }
+}
+
+.container--example-c {
+    @extend .fixed-margins;
+    @extend .fixed-width;
+    
+    margin-bottom: $gutter;
+
+    .unit {
+        @extend .group-1--one-whole;
+        @extend .group-2--one-whole;
+        @extend .group-3--one-third;
+        @extend .group-4--one-quarter;
+
+        div {
+            background-color: $alt;
+            padding: $gutter;
+        }
+    }
+}
+
+.container--example-d {
+    @extend .fixed-width;
+
+    .unit {
+        @extend .group-1--one-whole;
+        @extend .group-2--one-whole;
+        @extend .group-3--one-third;
+        @extend .group-4--one-quarter;
+    }
+
+    .a {
+        background-color: red;
+    }
+
+    .b {
+        background-color: blue;
+    }
+
+    .c {
+        background-color: green;
+    }
+}
+
+// ------------------------------------------------------------

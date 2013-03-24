@@ -1,0 +1,211 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/BBC\%20Grid\/_grid\.scss}line{font-family:\0000310}}
+.fixed-margins, .container--example-a, .container--example-b, .container--example-c {
+  font-size: 0;
+}
+@media (max-width: 399px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/BBC\%20Grid\/_grid\.scss}line{font-family:\0000310}}
+  .fixed-margins, .container--example-a, .container--example-b, .container--example-c {
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+}
+@media (min-width: 400px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/BBC\%20Grid\/_grid\.scss}line{font-family:\0000310}}
+  .fixed-margins, .container--example-a, .container--example-b, .container--example-c {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+@media (min-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/BBC\%20Grid\/_grid\.scss}line{font-family:\0000310}}
+  .fixed-margins, .container--example-a, .container--example-b, .container--example-c {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+@media (min-width: 1008px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/BBC\%20Grid\/_grid\.scss}line{font-family:\0000310}}
+  .fixed-margins, .container--example-a, .container--example-b, .container--example-c {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+
+@media (min-width: 1008px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/BBC\%20Grid\/_grid\.scss}line{font-family:\0000319}}
+  .fixed-width, .container--example-a .collection, .container--example-b, .container--example-c, .container--example-d {
+    margin-left: auto;
+    margin-right: auto;
+    width: 992px;
+  }
+}
+
+@media (max-width: 399px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/BBC\%20Grid\/_grid\.scss}line{font-family:\0000323}}
+  .half-gutters, .one-whole, .group-1 .group-1--one-whole, .group-1 .container--example-a .unit, .container--example-a .group-1 .unit, .group-1 .container--example-b .unit, .container--example-b .group-1 .unit, .group-1 .container--example-c .unit, .container--example-c .group-1 .unit, .group-1 .container--example-d .unit, .container--example-d .group-1 .unit, .group-2 .group-2--one-whole, .group-2 .container--example-a .unit, .container--example-a .group-2 .unit, .group-2 .container--example-b .unit, .container--example-b .group-2 .unit, .group-2 .container--example-c .unit, .container--example-c .group-2 .unit, .group-2 .container--example-d .unit, .container--example-d .group-2 .unit, .group-3 .group-3--one-whole, .group-4 .group-4--one-whole, .one-half, .group-1 .group-1--one-half, .group-2 .group-2--one-half, .group-3 .group-3--one-half, .group-4 .group-4--one-half, .one-third, .group-1 .group-1--one-third, .group-2 .group-2--one-third, .group-3 .group-3--one-third, .group-3 .container--example-a .unit, .container--example-a .group-3 .unit, .group-3 .container--example-b .unit, .container--example-b .group-3 .unit, .group-3 .container--example-c .unit, .container--example-c .group-3 .unit, .group-3 .container--example-d .unit, .container--example-d .group-3 .unit, .group-4 .group-4--one-third, .one-quarter, .group-1 .group-1--one-quarter, .group-2 .group-2--one-quarter, .group-3 .group-3--one-quarter, .group-4 .group-4--one-quarter, .group-4 .container--example-a .unit, .container--example-a .group-4 .unit, .group-4 .container--example-b .unit, .container--example-b .group-4 .unit, .group-4 .container--example-c .unit, .container--example-c .group-4 .unit, .group-4 .container--example-d .unit, .container--example-d .group-4 .unit, .one-sixth, .group-1 .group-1--one-sixth, .group-2 .group-2--one-sixth, .group-3 .group-3--one-sixth, .group-4 .group-4--one-sixth, .one-twelfth, .group-1 .group-1--one-twelfth, .group-2 .group-2--one-twelfth, .group-3 .group-3--one-twelfth, .group-4 .group-4--one-twelfth {
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+}
+@media (min-width: 400px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/BBC\%20Grid\/_grid\.scss}line{font-family:\0000323}}
+  .half-gutters, .one-whole, .group-1 .group-1--one-whole, .group-1 .container--example-a .unit, .container--example-a .group-1 .unit, .group-1 .container--example-b .unit, .container--example-b .group-1 .unit, .group-1 .container--example-c .unit, .container--example-c .group-1 .unit, .group-1 .container--example-d .unit, .container--example-d .group-1 .unit, .group-2 .group-2--one-whole, .group-2 .container--example-a .unit, .container--example-a .group-2 .unit, .group-2 .container--example-b .unit, .container--example-b .group-2 .unit, .group-2 .container--example-c .unit, .container--example-c .group-2 .unit, .group-2 .container--example-d .unit, .container--example-d .group-2 .unit, .group-3 .group-3--one-whole, .group-4 .group-4--one-whole, .one-half, .group-1 .group-1--one-half, .group-2 .group-2--one-half, .group-3 .group-3--one-half, .group-4 .group-4--one-half, .one-third, .group-1 .group-1--one-third, .group-2 .group-2--one-third, .group-3 .group-3--one-third, .group-3 .container--example-a .unit, .container--example-a .group-3 .unit, .group-3 .container--example-b .unit, .container--example-b .group-3 .unit, .group-3 .container--example-c .unit, .container--example-c .group-3 .unit, .group-3 .container--example-d .unit, .container--example-d .group-3 .unit, .group-4 .group-4--one-third, .one-quarter, .group-1 .group-1--one-quarter, .group-2 .group-2--one-quarter, .group-3 .group-3--one-quarter, .group-4 .group-4--one-quarter, .group-4 .container--example-a .unit, .container--example-a .group-4 .unit, .group-4 .container--example-b .unit, .container--example-b .group-4 .unit, .group-4 .container--example-c .unit, .container--example-c .group-4 .unit, .group-4 .container--example-d .unit, .container--example-d .group-4 .unit, .one-sixth, .group-1 .group-1--one-sixth, .group-2 .group-2--one-sixth, .group-3 .group-3--one-sixth, .group-4 .group-4--one-sixth, .one-twelfth, .group-1 .group-1--one-twelfth, .group-2 .group-2--one-twelfth, .group-3 .group-3--one-twelfth, .group-4 .group-4--one-twelfth {
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+}
+@media (min-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/BBC\%20Grid\/_grid\.scss}line{font-family:\0000323}}
+  .half-gutters, .one-whole, .group-1 .group-1--one-whole, .group-1 .container--example-a .unit, .container--example-a .group-1 .unit, .group-1 .container--example-b .unit, .container--example-b .group-1 .unit, .group-1 .container--example-c .unit, .container--example-c .group-1 .unit, .group-1 .container--example-d .unit, .container--example-d .group-1 .unit, .group-2 .group-2--one-whole, .group-2 .container--example-a .unit, .container--example-a .group-2 .unit, .group-2 .container--example-b .unit, .container--example-b .group-2 .unit, .group-2 .container--example-c .unit, .container--example-c .group-2 .unit, .group-2 .container--example-d .unit, .container--example-d .group-2 .unit, .group-3 .group-3--one-whole, .group-4 .group-4--one-whole, .one-half, .group-1 .group-1--one-half, .group-2 .group-2--one-half, .group-3 .group-3--one-half, .group-4 .group-4--one-half, .one-third, .group-1 .group-1--one-third, .group-2 .group-2--one-third, .group-3 .group-3--one-third, .group-3 .container--example-a .unit, .container--example-a .group-3 .unit, .group-3 .container--example-b .unit, .container--example-b .group-3 .unit, .group-3 .container--example-c .unit, .container--example-c .group-3 .unit, .group-3 .container--example-d .unit, .container--example-d .group-3 .unit, .group-4 .group-4--one-third, .one-quarter, .group-1 .group-1--one-quarter, .group-2 .group-2--one-quarter, .group-3 .group-3--one-quarter, .group-4 .group-4--one-quarter, .group-4 .container--example-a .unit, .container--example-a .group-4 .unit, .group-4 .container--example-b .unit, .container--example-b .group-4 .unit, .group-4 .container--example-c .unit, .container--example-c .group-4 .unit, .group-4 .container--example-d .unit, .container--example-d .group-4 .unit, .one-sixth, .group-1 .group-1--one-sixth, .group-2 .group-2--one-sixth, .group-3 .group-3--one-sixth, .group-4 .group-4--one-sixth, .one-twelfth, .group-1 .group-1--one-twelfth, .group-2 .group-2--one-twelfth, .group-3 .group-3--one-twelfth, .group-4 .group-4--one-twelfth {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+@media (min-width: 1008px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/BBC\%20Grid\/_grid\.scss}line{font-family:\0000323}}
+  .half-gutters, .one-whole, .group-1 .group-1--one-whole, .group-1 .container--example-a .unit, .container--example-a .group-1 .unit, .group-1 .container--example-b .unit, .container--example-b .group-1 .unit, .group-1 .container--example-c .unit, .container--example-c .group-1 .unit, .group-1 .container--example-d .unit, .container--example-d .group-1 .unit, .group-2 .group-2--one-whole, .group-2 .container--example-a .unit, .container--example-a .group-2 .unit, .group-2 .container--example-b .unit, .container--example-b .group-2 .unit, .group-2 .container--example-c .unit, .container--example-c .group-2 .unit, .group-2 .container--example-d .unit, .container--example-d .group-2 .unit, .group-3 .group-3--one-whole, .group-4 .group-4--one-whole, .one-half, .group-1 .group-1--one-half, .group-2 .group-2--one-half, .group-3 .group-3--one-half, .group-4 .group-4--one-half, .one-third, .group-1 .group-1--one-third, .group-2 .group-2--one-third, .group-3 .group-3--one-third, .group-3 .container--example-a .unit, .container--example-a .group-3 .unit, .group-3 .container--example-b .unit, .container--example-b .group-3 .unit, .group-3 .container--example-c .unit, .container--example-c .group-3 .unit, .group-3 .container--example-d .unit, .container--example-d .group-3 .unit, .group-4 .group-4--one-third, .one-quarter, .group-1 .group-1--one-quarter, .group-2 .group-2--one-quarter, .group-3 .group-3--one-quarter, .group-4 .group-4--one-quarter, .group-4 .container--example-a .unit, .container--example-a .group-4 .unit, .group-4 .container--example-b .unit, .container--example-b .group-4 .unit, .group-4 .container--example-c .unit, .container--example-c .group-4 .unit, .group-4 .container--example-d .unit, .container--example-d .group-4 .unit, .one-sixth, .group-1 .group-1--one-sixth, .group-2 .group-2--one-sixth, .group-3 .group-3--one-sixth, .group-4 .group-4--one-sixth, .one-twelfth, .group-1 .group-1--one-twelfth, .group-2 .group-2--one-twelfth, .group-3 .group-3--one-twelfth, .group-4 .group-4--one-twelfth {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/BBC\%20Grid\/_grid\.scss}line{font-family:\0000330}}
+.box-sizing, .one-whole, .group-1 .group-1--one-whole, .group-1 .container--example-a .unit, .container--example-a .group-1 .unit, .group-1 .container--example-b .unit, .container--example-b .group-1 .unit, .group-1 .container--example-c .unit, .container--example-c .group-1 .unit, .group-1 .container--example-d .unit, .container--example-d .group-1 .unit, .group-2 .group-2--one-whole, .group-2 .container--example-a .unit, .container--example-a .group-2 .unit, .group-2 .container--example-b .unit, .container--example-b .group-2 .unit, .group-2 .container--example-c .unit, .container--example-c .group-2 .unit, .group-2 .container--example-d .unit, .container--example-d .group-2 .unit, .group-3 .group-3--one-whole, .group-4 .group-4--one-whole, .one-half, .group-1 .group-1--one-half, .group-2 .group-2--one-half, .group-3 .group-3--one-half, .group-4 .group-4--one-half, .one-third, .group-1 .group-1--one-third, .group-2 .group-2--one-third, .group-3 .group-3--one-third, .group-3 .container--example-a .unit, .container--example-a .group-3 .unit, .group-3 .container--example-b .unit, .container--example-b .group-3 .unit, .group-3 .container--example-c .unit, .container--example-c .group-3 .unit, .group-3 .container--example-d .unit, .container--example-d .group-3 .unit, .group-4 .group-4--one-third, .one-quarter, .group-1 .group-1--one-quarter, .group-2 .group-2--one-quarter, .group-3 .group-3--one-quarter, .group-4 .group-4--one-quarter, .group-4 .container--example-a .unit, .container--example-a .group-4 .unit, .group-4 .container--example-b .unit, .container--example-b .group-4 .unit, .group-4 .container--example-c .unit, .container--example-c .group-4 .unit, .group-4 .container--example-d .unit, .container--example-d .group-4 .unit, .one-sixth, .group-1 .group-1--one-sixth, .group-2 .group-2--one-sixth, .group-3 .group-3--one-sixth, .group-4 .group-4--one-sixth, .one-twelfth, .group-1 .group-1--one-twelfth, .group-2 .group-2--one-twelfth, .group-3 .group-3--one-twelfth, .group-4 .group-4--one-twelfth {
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/BBC\%20Grid\/_grid\.scss}line{font-family:\0000340}}
+.one-whole, .group-1 .group-1--one-whole, .group-1 .container--example-a .unit, .container--example-a .group-1 .unit, .group-1 .container--example-b .unit, .container--example-b .group-1 .unit, .group-1 .container--example-c .unit, .container--example-c .group-1 .unit, .group-1 .container--example-d .unit, .container--example-d .group-1 .unit, .group-2 .group-2--one-whole, .group-2 .container--example-a .unit, .container--example-a .group-2 .unit, .group-2 .container--example-b .unit, .container--example-b .group-2 .unit, .group-2 .container--example-c .unit, .container--example-c .group-2 .unit, .group-2 .container--example-d .unit, .container--example-d .group-2 .unit, .group-3 .group-3--one-whole, .group-4 .group-4--one-whole {
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/BBC\%20Grid\/_grid\.scss}line{font-family:\0000341}}
+.one-half, .group-1 .group-1--one-half, .group-2 .group-2--one-half, .group-3 .group-3--one-half, .group-4 .group-4--one-half {
+  width: 50%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/BBC\%20Grid\/_grid\.scss}line{font-family:\0000342}}
+.one-third, .group-1 .group-1--one-third, .group-2 .group-2--one-third, .group-3 .group-3--one-third, .group-3 .container--example-a .unit, .container--example-a .group-3 .unit, .group-3 .container--example-b .unit, .container--example-b .group-3 .unit, .group-3 .container--example-c .unit, .container--example-c .group-3 .unit, .group-3 .container--example-d .unit, .container--example-d .group-3 .unit, .group-4 .group-4--one-third {
+  width: 33.33333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/BBC\%20Grid\/_grid\.scss}line{font-family:\0000343}}
+.one-quarter, .group-1 .group-1--one-quarter, .group-2 .group-2--one-quarter, .group-3 .group-3--one-quarter, .group-4 .group-4--one-quarter, .group-4 .container--example-a .unit, .container--example-a .group-4 .unit, .group-4 .container--example-b .unit, .container--example-b .group-4 .unit, .group-4 .container--example-c .unit, .container--example-c .group-4 .unit, .group-4 .container--example-d .unit, .container--example-d .group-4 .unit {
+  width: 25%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/BBC\%20Grid\/_grid\.scss}line{font-family:\0000344}}
+.one-sixth, .group-1 .group-1--one-sixth, .group-2 .group-2--one-sixth, .group-3 .group-3--one-sixth, .group-4 .group-4--one-sixth {
+  width: 16.66667%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/BBC\%20Grid\/_grid\.scss}line{font-family:\0000345}}
+.one-twelfth, .group-1 .group-1--one-twelfth, .group-2 .group-2--one-twelfth, .group-3 .group-3--one-twelfth, .group-4 .group-4--one-twelfth {
+  width: 8.33333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/BBC\%20Grid\/_grid\.scss}line{font-family:\0000347}}
+.two-thirds, .group-3 .group-3--two-thirds {
+  width: 66.66667%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/BBC\%20Grid\/_grid\.scss}line{font-family:\0000348}}
+.three-quarters {
+  width: 75%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/BBC\%20Grid\/_grid\.scss}line{font-family:\0000349}}
+.five-sixths {
+  width: 83.33333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/BBC\%20Grid\/_grid\.scss}line{font-family:\0000350}}
+.five-twelfths {
+  width: 41.66667%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/BBC\%20Grid\/_grid\.scss}line{font-family:\0000351}}
+.seven-twelfths {
+  width: 58.33333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/BBC\%20Grid\/_grid\.scss}line{font-family:\0000352}}
+.eleven-twelfths {
+  width: 91.66667%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/BBC\%20Grid\/_base\.scss}line{font-family:\000031}}
+body {
+  font: 100%/1.5 sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* =============================================================================
+   Inserts the font size as an rem unit
+   Falls back to pixel unit for browsers that don't support REM (IE < 9)
+
+   Useful for responsive designs.
+   
+   Explanation:
+   The premise is that you divide the 'target' font size by the font size of the root element (<html>).
+   You then specify the font size in 'rems'.
+   e.g. 11px / 16px = .6875rem;
+
+   Unlike using the em unit (which is affected by its container) the rem unit is easier because 
+   the root element font size always stays the same.
+   
+   Example usage:
+   @include font-size(16);
+   ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/BBC\%20Grid\/application\.scss}line{font-family:\0000314}}
+.container--example-a .unit,
+.container--example-b .unit,
+.container--example-c .unit,
+.container--example-d .unit {
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.125;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/BBC\%20Grid\/application\.scss}line{font-family:\0000319}}
+.container--example-a {
+  background-color: #ededed;
+  margin-bottom: 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/BBC\%20Grid\/application\.scss}line{font-family:\0000327}}
+.container--example-a .unit {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/BBC\%20Grid\/application\.scss}line{font-family:\0000338}}
+.container--example-b {
+  margin-bottom: 16px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/BBC\%20Grid\/application\.scss}line{font-family:\0000352}}
+.container--example-c {
+  margin-bottom: 8px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/BBC\%20Grid\/application\.scss}line{font-family:\0000364}}
+.container--example-c .unit div {
+  background-color: #ededed;
+  padding: 8px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/BBC\%20Grid\/application\.scss}line{font-family:\0000381}}
+.container--example-d .a {
+  background-color: red;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/BBC\%20Grid\/application\.scss}line{font-family:\0000385}}
+.container--example-d .b {
+  background-color: blue;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/Documents\/BBC\%20Grid\/application\.scss}line{font-family:\0000389}}
+.container--example-d .c {
+  background-color: green;
+}

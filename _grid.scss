@@ -1,0 +1,91 @@
+// ------------------------------------------------------------
+
+@mixin group-1 { @media (max-width:  399px) { @content }}
+@mixin group-2 { @media (min-width:  400px) { @content }}
+@mixin group-3 { @media (min-width:  600px) { @content }}
+@mixin group-4 { @media (min-width: 1008px) { @content }}
+
+// ------------------------------------------------------------
+
+.fixed-margins {
+    font-size: 0; // fixes inline-block 4px margin rendering bug
+
+    @include group-1 { padding-left:  4px; padding-right:  4px }
+    @include group-2 { padding-left: 12px; padding-right: 12px }
+    @include group-3 { padding-left: 24px; padding-right: 24px }
+    @include group-4 { padding-left:  8px; padding-right:  8px }
+}
+
+.fixed-width {
+    @include group-4 { margin-left: auto; margin-right: auto; width: 992px }
+}
+
+.half-gutters {
+    @include group-1 { padding-left: 4px; padding-right: 4px }
+    @include group-2 { padding-left: 4px; padding-right: 4px }
+    @include group-3 { padding-left: 8px; padding-right: 8px }
+    @include group-4 { padding-left: 8px; padding-right: 8px }
+}
+
+.box-sizing {
+    display: inline-block;
+
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+// ------------------------------------------------------------
+
+.one-whole   { width: (100% / 12 * 12 /  1); @extend .half-gutters; @extend .box-sizing }
+.one-half    { width: (100% / 12 * 12 /  2); @extend .half-gutters; @extend .box-sizing }
+.one-third   { width: (100% / 12 * 12 /  3); @extend .half-gutters; @extend .box-sizing }
+.one-quarter { width: (100% / 12 * 12 /  4); @extend .half-gutters; @extend .box-sizing }
+.one-sixth   { width: (100% / 12 * 12 /  6); @extend .half-gutters; @extend .box-sizing }
+.one-twelfth { width: (100% / 12 * 12 / 12); @extend .half-gutters; @extend .box-sizing }
+
+.two-thirds      { width: (100% / 12 * 12 /  3 *  2) }
+.three-quarters  { width: (100% / 12 * 12 /  4 *  3) }
+.five-sixths     { width: (100% / 12 * 12 /  6 *  5) }
+.five-twelfths   { width: (100% / 12 * 12 / 12 *  5) }
+.seven-twelfths  { width: (100% / 12 * 12 / 12 *  7) }
+.eleven-twelfths { width: (100% / 12 * 12 / 12 * 11) }
+
+// ------------------------------------------------------------
+
+.group-1--one-whole   { .group-1 & { @extend .one-whole   }}
+.group-1--one-half    { .group-1 & { @extend .one-half    }}
+.group-1--one-third   { .group-1 & { @extend .one-third   }}
+.group-1--one-quarter { .group-1 & { @extend .one-quarter }}
+.group-1--one-sixth   { .group-1 & { @extend .one-sixth   }}
+.group-1--one-twelfth { .group-1 & { @extend .one-twelfth }}
+
+// ------------------------------------------------------------
+
+.group-2--one-whole   { .group-2 & { @extend .one-whole   }}
+.group-2--one-half    { .group-2 & { @extend .one-half    }}
+.group-2--one-third   { .group-2 & { @extend .one-third   }}
+.group-2--one-quarter { .group-2 & { @extend .one-quarter }}
+.group-2--one-sixth   { .group-2 & { @extend .one-sixth   }}
+.group-2--one-twelfth { .group-2 & { @extend .one-twelfth }}
+
+// ------------------------------------------------------------
+
+.group-3--one-whole   { .group-3 & { @extend .one-whole   }}
+.group-3--one-half    { .group-3 & { @extend .one-half    }}
+.group-3--one-third   { .group-3 & { @extend .one-third   }}
+.group-3--two-thirds  { .group-3 & { @extend .two-thirds  }}
+.group-3--one-quarter { .group-3 & { @extend .one-quarter }}
+.group-3--one-sixth   { .group-3 & { @extend .one-sixth   }}
+.group-3--one-twelfth { .group-3 & { @extend .one-twelfth }}
+
+// ------------------------------------------------------------
+
+.group-4--one-whole   { .group-4 & { @extend .one-whole   }}
+.group-4--one-half    { .group-4 & { @extend .one-half    }}
+.group-4--one-third   { .group-4 & { @extend .one-third   }}
+.group-4--one-quarter { .group-4 & { @extend .one-quarter }}
+.group-4--one-sixth   { .group-4 & { @extend .one-sixth   }}
+.group-4--one-twelfth { .group-4 & { @extend .one-twelfth }}
+
+// ------------------------------------------------------------
